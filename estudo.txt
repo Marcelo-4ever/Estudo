@@ -1,0 +1,33 @@
+Dicionários: 
+As listas são parecidas com os dicionários, porém tem algumas diferenças: 
+As listas são ordenadas e seus índices são apenas numéricos. Mas o que isso significa? Bom, o python reconhece o python
+de acordo com o índice dela, então é na ordem: 0,1,2,3. Segue o exemplo: 
+animais = ['cachorro', 'gato', 'pássaro']
+animais2 = ['gato', 'cachorro', 'pássaro']
+
+Essas duas listas tem os mesmos valores dentro delas, porém, estão com uma ordem diferente. Então ao verificar se eles são iguais
+teremos o seguinte:
+
+animas == animais2
+False
+
+Já os dicionários são não-ordenados, podemos ver isso se escrevermos no nosso editor: 
+
+estações = {'calor' : 'verão', 'frio': 'inverno'}
+estações2 = {'frio': 'inverno', 'calor': 'verão'}
+estações == estações2:
+True
+
+Não importa a ordem dos índices, se as keys(chaves) e os values(valores) - Não se preocupe, já explico o que são 
+esses nomes - estiverem com os mesmos argumentos, os dicionários vão ser considerados como iguais. E falando sobre 
+índices percebemos que nesse dicionário, do exemplo acima, são: 'calor' e 'frio'. Bem diferente do "0,1,2,3,4.." das listas, certo? 
+Isso porque nos dicionários é aceito strings, inteiros, flutuantes ou tuplas como nome para índice, que na verdade é o value(que 
+falei no início do parágrafo).
+
+O dicionário é composto das 'key', 'value' e 'items'. Pode ser novo para você mas é algo super fácil de entender, segue o exemplo:
+
+animais = {'animal1': 'cachorro'}
+dicionário = {'key': 'value'} 
+ 
+E o items é tanto a key quanto o value. Se quisermos mostrar o 'animal1' estamos nos referenciando a key, se mostrar 'cachorro' será
+o value e se mostrarmos {'animal1': 'cachorro'} estamos mostrando os items. 
