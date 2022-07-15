@@ -35,7 +35,7 @@ print(r"Hoje o dia foi muito \"legal\"")
 Hoje o dia foi muito \"legal\"
 ```
 
-Obs: Quando usar o prefixo 'r' cuidado para não colocar uma contrabarra antes da último aspa, aquele que termina a string, quando você faz isso a contrabarra muda a função da aspa: como já foi visto antes, a aspa se torna parte da frase e não um sinal especial.
+Obs: Quando usar o prefixo 'r' cuidado para não colocar uma contrabarra antes da último aspa, aquela que termina a string, quando você faz isso a contrabarra muda a função da aspa: como já foi visto antes, a aspa se torna parte da frase e não um sinal especial.
 
 ```
 #Input
