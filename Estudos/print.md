@@ -2,9 +2,9 @@ print: print() é o comado usado para imprimir algo na tela, no caso, os argumen
 
 ```py
 #Exemplo:
-Input
+#Input
 print('Marcelo', 'Ferreira') # são dois argumentos separados por vírgula e que serão imprimidos separados por um espaço.
-Output
+#Output
 Marcelo Ferreira
 ```
 
@@ -27,16 +27,16 @@ Os caracteres de escapes são:
 
 Porém, se você quiser mostrar a contrabarra e as aspas na tela, você pode usar o prefixo 'r', que significa raw.
 ```
-Input
+#Input
 print(r"Hoje o dia foi muito \"legal\"")
 
-Output
+#Output
 Hoje o dia foi muito \"legal\"
 ```
 
 Obs: Quando usar o prefixo 'r' cuidado para não colocar uma contrabarra antes da último aspa, aquele que termina a string, quando você faz isso a contrabarra muda a função da aspa: como já foi visto antes, a aspa se torna parte da frase e não um sinal especial.
 
 ```
-Input
+#Input
 print(r"Hoje o dia foi muito \"legal\") #Isso causará um erro no programa pois não existe uma aspa que funcione para terminar a string.
 ```
