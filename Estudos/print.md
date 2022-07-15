@@ -1,4 +1,5 @@
-print: print() é o comado usado para imprimir algo na tela, no caso, os argumentos dentro dos parênteses.
+## **Print**
+* print() é o comado usado para imprimir algo na tela, no caso, os argumentos dentro dos parênteses.
 
 ```py
 #Exemplo:
