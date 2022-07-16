@@ -70,7 +70,7 @@ print(10 + 10)
 
 # 10 sem aspas é um inteiro, então o sinal de + vai funcionar como uma conta normal e vai mostrar na tela 20.
 ```
-Se você for testar escrever `(10 + '10')` vai dar erro, pois, os dois precisam ser do mesmo tipo para funcionar. E com isso vamos para o próximo tópico: type casting.
+Se você for testar escrever `(10 + '10')` vai dar erro, pois, os dois precisam ser do mesmo tipo para funcionar. E com isso vamos para o próximo tópico: [type casting](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/type_casting.md).
 
 
 
