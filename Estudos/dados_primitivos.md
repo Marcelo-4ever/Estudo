@@ -42,7 +42,7 @@ True
 ## Tipo de um valor
 
 ### Função type()
----
+
 Para saber o tipo primitivo de um valor pode ser usada a função *type()*. Por exemplo, `type('Qualquer coisa')` vai mostrar na tela `<class 'str'>`, ou seja, uma string.                                      
 ```py
 type('Marcelo') # string                                
