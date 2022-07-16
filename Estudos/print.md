@@ -22,7 +22,7 @@ Hoje foi um dia "legal"
 
  
 Os caracteres de escape são:   
-\n - Nova linha. Pula para o início da próxima linha.   
+|\n | Nova linha. Pula para o início da próxima linha.|   
 \t - Tabulação Horizontal. Funciona como a tecla tab.   
 \r - Retorno de carro. Move o cursor para o início da linha atual; não avança para a próxima linha   
 \b - Backspace. Retrocede o cursor um caractere(come o último caractere digitado antes dele)                            
