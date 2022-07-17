@@ -15,7 +15,7 @@ Agora que temos as variáveis como podemos escrever uma frase e colocar cada var
 ---
 
 ### Sem f-strings:
-```py
+```
 #input
 print('Eu tenho', quantidade_cachorro, 'cachorros e eles se chamam', cachorro1, 'e', cachorro2)
 
@@ -52,7 +52,7 @@ num2 = 3
 divisao = 10 / 3 
 
 #input
-print(f'{num1} / {3} = {divisao}')
+print(f'{num1} / {num2} = {divisao}')
 
 #output
 3.3333333333333335
@@ -69,7 +69,7 @@ print(f'{num1} / {num2} = {divisao:.2f}')
 
 O que aconteceu aqui? Vou te explicar passo a passo.    
 Quando colocamos os dois pontos `:` dentro das chaves estamos falando para o python que vamos ter uma formatação, logo depois temos `'.2'` que significa que queremos apenas duas casas decimais, e por último o *`f`* que fala basicamente: 'duas casas decimais de pontos flutuantes'. Isso quer dizer que queremos 2 dígitos após o ponto flutuante, por isso o output foi 3.33.       
-E se a conta tiver a resposta sendo um número inteiro? O python iria transformar em um valor float e adicionaria duas casas decimais: 
+E se a conta tiver a resposta sendo um número inteiro? O python iria transformar em um valor *float* e adicionaria duas casas decimais: 
 
 ```py
 divisao = 10 / 2 
@@ -85,7 +85,7 @@ print(f'{divisao:.2f})
 
 O format lembra um pouco as f-strings já que também usa chaves, porém, *eu* acho mais fácil usar as f-strings. Agora vamos ver alguns exemplos para entender esse método:
 
-```py
+```
 tamanho_em_metros = 23.5
 tamanho_em_centimetros = 2350
 
@@ -95,14 +95,18 @@ print('O tamanho da casa é {} metros ou {} centímetros'.format(tamanho_em_metr
 #output
 O tamanho da casa é 23.5 metros ou 2350 centímetros
 ```
-1. Você colocar as chaves onde você vai colocar suas variáveis
-2. Escreve `.format()`
-3. Dentro dos parênteses você vai escrever as variáveis na ordem que você quer que elas apareçam dentro da string
-4. Você precisa separá-las com vírgula
+Passo a passo:
+1. Abrir aspas
+2. Coloca as chaves onde você vai querer suas variáveis
+3. Fechar aspas
+4. Escreve `.format()`
+5. Dentro dos parênteses você vai escrever as variáveis na ordem que você quer que elas apareçam
+6. Você precisa separá-las com vírgula
+7. A quantidade de variáveis precisa ser a mesma ou menor que a quantidade de chaves dentro da string, se colocar mais você vai receber um erro
 
 Sabendo desse disso, se você colocasse primeiro tamanho_em_centímetros e depois tamanho_em_metros a string ficaria assim:
 
-```py
+```
 O tamanho da casa é 2350 metros ou 23.5 centímetros
 ```
 
@@ -119,7 +123,7 @@ Assim fica um pouco mais fácil de localizar as chaves para escrever as variáve
 
 E sabendo disso podemos fazer algo bem legal:
 
-```py
+```
 nome = 'Neymar'
 
 #input
@@ -132,7 +136,7 @@ Então seu nome é Neymar, ok, quer dizer que você é o Neymar.. aquele Neymar?
 Como a variável `nome` tem índice 0, quando eu colocar o `0` entre as chaves vou estar fazendo uma referência a ela. Se for colocada outra variável no lugar, todos os valores do *output* mudariam também.     
 E não importa a ordem, olha só:
 
-```py
+```
 nome = 'Neymar'
 nome2 = 'Messi' 
 
@@ -144,7 +148,7 @@ Você é o Neymar e ele o Messi? Certo, você é o Messi e ele é o Neymar.
 ```
 Mas caso você *não* queira os índices 0, 1, 2, etc, você pode deixar explícito como você quer fazer referência a uma variável. Vamos ver:
 
-```py
+```
 nome1 = 'Marcelo'
 nome2 = 'Antônio'
 nome3 = 'Jorge'
