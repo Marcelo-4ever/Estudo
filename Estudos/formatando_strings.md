@@ -162,4 +162,6 @@ print('5 pessoas vão para o festival: eu, {M}, {N}, {J}, {A}'.format(M=nome1, A
 
 ```
 
+##
+
 [Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/input.md)
