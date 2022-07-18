@@ -18,7 +18,7 @@ if pedir_email_usuario == email: # SE o email que o usuário digitar for igual(=
 ##
 
 No Python a hierarquia dos códigos funciona através de espaços, que vai ser chamado de *indentação*, então quando tiver uma condição *if*, a próxima linha de código precisa ter pelo menos 1 espaço a mais que a linha anterior, mas por convenção é utilizado 4 espaços ou 1 tab.     
-Quando um código tiver com muitos espaços ou tiver faltando espaços, vai ser falado por quem ler o código que há uma má identação. 
+Quando um código tiver com muitos espaços ou tiver faltando espaços, vai ser falado por quem ler o código que há uma má indentação. 
 
 ```py
 nome = 'Marcelo'
