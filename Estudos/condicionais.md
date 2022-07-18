@@ -1,11 +1,11 @@
 ## **Condição *IF, ELIF, ELSE***
 
 Antes de explicar essas condições, vamos imaginar um usuário criando um e-mail e uma senha.        
-Depois de criar e salvar o e-mail e a senha, quando ele quiser entrar novamente na conta dele vai ser necessário digitar tudo exatamente igual, então só *SE* o e-mail que ele digitar for igual ao e-mail que ele criou e *SE* a senha for igual a senha que ele criou que ele vai conseguir entrar no e-mail.    
-E quando a gente pensa nas condições, *`if`* vem do inglês e significa *`se`*, então é só trocar. E caso a condição for verdadeira, ou seja, o email e a senha digitados forem igual ao email e senha criado, teremos um valor booleano True.       
+Depois de criar e salvar o e-mail e a senha, quando ele quiser entrar novamente na conta vai ser necessário digitar tudo exatamente igual, então só *SE* o e-mail que ele digitar for igual ao e-mail que ele criou e *SE* a senha for igual a senha que ele criou que ele vai conseguir entrar na conta.    
+E quando a gente pensa nas condições, *`if`* vem do inglês e significa *`se`*, então é só substituir. E caso a condição seja verdadeira, ou seja, o e-mail e a senha digitados são iguais ao e-mail e a senha criada, teremos um valor booleano _True_.       
 Agora colocando isso como um código, ficaria assim: 
 
-```
+```py
 email = 'issoeumexemplo@gmail.com
 senha = '1234'
 
@@ -15,6 +15,7 @@ if pedir_email_usuario == email: # SE o email que o usuário digitar for igual(=
 		if pedir_senha_usuario == senha: #verificando se a senha também é igual
 			print('Bem vindo!)
 ```
+##
 
 No Python a hierarquia dos códigos funciona através de espaços, que vai ser chamado de *indentação*, então quando tiver uma condição *if*, a próxima linha de código precisa ter pelo menos 1 espaço a mais que a linha anterior, mas por convenção é utilizado 4 espaços ou 1 tab.     
 Quando um código tiver com muitos espaços ou tiver faltando espaços, vai ser falado por quem ler o código que há uma má identação. 
@@ -34,10 +35,10 @@ if nome == 'Marcelo':
 ```py
 nome = 'Marcelo'
 if nome == 'Marcelo': 
-	print(f'Prazer, {nome}') # bem indentado, vai funcionar
+	print(f'Prazer, {nome}') # bem indentado e vai funcionar
 ```
 
-Perceba que o bloco de código dentro da condição if só acontece se a função for verdadeira, ou *True* em valores *booleanos*, se ela for False nada dentro do bloco irá acontecer: 
+Perceba que o bloco de código dentro da condição _if_ só acontece se a função for verdadeira, ou *True* em valores *booleanos*, se ela for False nada dentro do bloco irá acontecer: 
 
 ```
 quantidade_gatos_no_bairro = 200
@@ -49,8 +50,10 @@ print('O bloco dentro da condição if não aconteceu')
 O bloco dentro da condição if não aconteceu
 ```
 
-Esse exemplo acima a função print que foi executada *sempre* irá acontecer, independente de existir a condição if. Mas em muitos momentos vamos precisar fazer algo como: SE tal coisa for verdade faça isso SENÃO faça essa outra coisa.          
-Ainda com a história do email, e se ele digitasse a senha errada? Ou o próprio email? Vamos ver agora.
+##
+
+Nesse exemplo acima, a função print que foi executada *sempre* irá acontecer, independente de existir a condição if. Mas em muitos momentos vamos precisar fazer algo como: SE tal coisa for verdade faça isso SENÃO faça essa outra coisa. E para isso temos a condição `else`!           
+Ainda com a história do email, e se ele digitasse a senha errada? Ou o próprio email? Vamos ver:
 
 
 ```py
