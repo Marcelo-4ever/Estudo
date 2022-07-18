@@ -72,9 +72,11 @@ print(10 + 10)
 ```
 Se você for testar escrever `(10 + '10')` vai dar erro, pois, os dois precisam ser do mesmo tipo para funcionar.
 
----
+##
 
-### Próximo tópico: [Type Casting](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/type_casting.md).
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/dados_primitivos.md)
+
+
 
 
 
