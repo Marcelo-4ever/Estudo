@@ -51,6 +51,7 @@ print(idade + 10)
 Qual sua idade? 18
 #vai mostrar um erro 
 ```
+##
 
 E como podemos resolver isso? Nós já vimos o type casting, então para transformar uma string em um inteiro é algo bem fácil e vou te mostrar duas formas:
 
@@ -101,7 +102,7 @@ Você estava a quantos km hora? 45ab
 # vai causar um erro
 ```
 
-Nesses casos é necessário fazer uma validação, e para validar precisamos aprender sobre as condições _if, elif, else_ que vão ser mostradas no próximo tópico. E junto do conhecimento dessas condições _você_ tem que pesquiser sobre o método `isdigit()` em python e tente validar esse código: 
+Nesses casos é necessário fazer uma validação, e para validar precisamos aprender sobre as condições _if, elif, else_ que vão ser mostradas no próximo tópico. E junto do conhecimento dessas condições _você_ tem que pesquisar sobre o método `isdigit()` em python e tentar validar esse código: 
 
 ```
 senha = 1234
