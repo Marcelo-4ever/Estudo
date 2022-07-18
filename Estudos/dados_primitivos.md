@@ -17,7 +17,7 @@ print('''Espero que sim!''')
 - *Inteiros* que são os números negativos e positivos, incluindo 0.  
 
 ``` py
--20, 0, 20
+-30, 0, 30
 ```
 
 - *Float* são os números reais ou de ponto flutuante(por causa do ponto) e é todo número positivo e negativo que tem um ponto ' . '.    
