@@ -30,3 +30,7 @@ bool([]) # Lista vazia: False
 bool({}) # Dicionário vazio: False 
 ```
 > Esses tipos de dados que ainda não foram citadas vão ser explicados em outros tópicos no futuro. 
+
+##
+
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/formatando_strings.md)
