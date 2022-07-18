@@ -1,4 +1,4 @@
-## Condição ***IF, ELIF, ELSE***
+## **Condição *IF, ELIF, ELSE***
 
 Antes de explicar essas condições, vamos imaginar um usuário criando um e-mail e uma senha.        
 Depois de criar e salvar o e-mail e a senha, quando ele quiser entrar novamente na conta dele vai ser necessário digitar tudo exatamente igual, então só *SE* o e-mail que ele digitar for igual ao e-mail que ele criou e *SE* a senha for igual a senha que ele criou que ele vai conseguir entrar no e-mail.    
