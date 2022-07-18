@@ -52,5 +52,6 @@ Obs: Quando usar o prefixo 'r' cuidado para não colocar uma contrabarra antes d
 print(r"Hoje o dia foi muito \"legal\") # Isso causa um erro no programa pois não existe uma aspa para finalizar a string.
 ```
 
----
-### Próximo tópico: [Dados Primitivos](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/dados_primitivos.md) 
+##
+
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/dados_primitivos.md) 
