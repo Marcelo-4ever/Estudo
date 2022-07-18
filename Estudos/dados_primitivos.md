@@ -74,7 +74,7 @@ Se você for testar escrever `(10 + '10')` vai dar erro, pois, os dois precisam 
 
 ##
 
-[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/dados_primitivos.md)
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/type_casting.md)
 
 
 
