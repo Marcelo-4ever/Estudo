@@ -1,7 +1,5 @@
 ## Operadores relacionais
 
-Operadores relacionais: <= < == >= > != possuem o valor devolvido em booleanos sempre.
-
 | Operadores relacionais |      Significado:     |
 |:----------------------:|:--------------------- |
 | >                      | maior que             |
@@ -24,15 +22,15 @@ Eles são feitos para realizar comparações e quando forem utilizados será dev
 
 ## 
 
-A diferença entre `=` e `==` é que com o sinal `=` você atribui um valor, é como se você falasse 'Isso vai  ter esse valor e acabou', por exemplo:
+A diferença entre `=` e `==` é que com o sinal `=` você atribui um valor, é como se você falasse 'Isso vai ter esse valor e acabou', por exemplo:
 
 ```
 valor = 5 # eu quero que a variável 'valor' passe a valer 5
 valor = 10 # agora eu quero que ela passe a valer 10 
 valor = valor + 2 # agora eu quero que ela pegue o valor dela e some 2, ou seja, como ela vale 10 vai ser 10 + 2, então vai passar a valer 12 a partir de agora 
 ```
-Já o operador `==` não tem essa confiança todo de afirmar que algo vai valer tanto, ele apenas pergunta "Hey, isso aqui é maior que isso? E isso aqui, é menor? É maior?" e nós temos a resposta sendo `True` que é basicamente "Sim, tá confirmado tal valor é maior/menor/igual/diferente que o outro valor", e `False` é "Po, te falar que isso ai não é verdade". 
-Como já foi dado alguns exemplos com todos os operadores, agora é contigo, advinhe a resposta e depois coloque no seu editor de código: 
+Já o operador `==` não tem essa confiança todo de afirmar que algo vai valer tanto, ele apenas pergunta "Hey, isso aqui é maior que isso? E isso aqui, é menor? É maior?" e nós temos a resposta sendo `True` que é basicamente "Sim, tal valor é maior/menor/igual/diferente que o outro valor", e `False` é "Po, te falar que isso ai é fake news.". 
+Como já foi dado alguns exemplos com todos os operadores, tente descobrir a resposta dos valores abaixo e depois coloque no seu editor de código: 
 
 ```
 valor = 1 
@@ -63,14 +61,14 @@ False
 ``` 
 Como assim False se o input foi 2? O input por padrão recebe qualquer valor como uma string, então a pergunta não foi `2` == `2` e sim `'2'` == `2`, o que não é verdade, por isso False. 
 
- Podemos também atribuir uma comparação a uma variável dessa forma: 
+Podemos também atribuir uma comparação a uma variável dessa forma: 
 
 ```
 valor1 = 2
 valor2 = 5
 comparar_valores = valor1 == valor2  
 ```
-Aqui temos duas variáveis e cada uma com um valor diferente, depois criamos mais uma variável e falamos equ ela vai ser o resultado do que for a resposta de `valor1 == valor2`. Como 2 não é igual a 5, o valor atribuido a `compararar_valores` será `False`
+Aqui temos duas variáveis e cada uma com um valor diferente, depois criamos mais uma variável e falamos que ela vai ser o resultado do que for a resposta de `valor1 == valor2`. Como 2 não é igual a 5, o valor atribuido a `compararar_valores` será `False`
 
 ##
 
@@ -96,7 +94,7 @@ if idade <= 18:
 
 Além disso tudo, podemos comparar duas coisas ou mais ao mesmo tempo usando os operadores `and` e `or`, se liga:
 
-```py
+```
 dinheiro = 15 
 divida = 10
 
