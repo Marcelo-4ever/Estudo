@@ -111,3 +111,7 @@ Esse código funciona da seguinte maneira:
 5. Se o nome não for nenhum desses ele executa a função print e o código acaba
 
 Ou seja, se o 1 for False passa para o próximo, se o 2 for False passa para o próximo, se o 3 for False passa para o próximo, se o 4 for False passa para o próximo, o 5 é o else e ele não precisa de uma expressão pedindo para verificar se algo é True/verdadeiro ou False/falso para acontecer, se chegou nele o código irá acontecer.
+
+##
+
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/operadores_relacionais.md)
