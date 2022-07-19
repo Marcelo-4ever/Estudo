@@ -6,3 +6,4 @@
 - [Formatando Strings](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/formatando_strings.md)
 - [Função input](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/input.md)
 - [Condicionais IF, ELIF, ELSE](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/condicionais.md)
+- [Operadores Relacionais](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/operadores_relacionais.md)
