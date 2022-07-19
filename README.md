@@ -1,4 +1,9 @@
 # **Estudos**
+
+Aqui eu vou colocar(espero) todos os tópicos de Python que eu aprendi ou estou aprendendo no momento.                              
+Se você encontrar qualquer informação incorreta é só me avisar, to aqui p/ aprender, então corrige ***sem medo***. 
+## 
+
 ## Python Básico
 - [Função print](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/print.md)
 - [Dados Primitivos](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/dados_primitivos.md)
