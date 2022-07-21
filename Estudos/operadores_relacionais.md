@@ -110,6 +110,7 @@ if dinheiro >= 10 and divida == 10 or divida <= 10:
 ```
 
 O `and` vem do inglês e significa `e` e o `or` significa `ou`, então quando utilizamos o *and* queremos saber se duas coisas acontecem ao mesmo tempo e quando usamos o *or* queremos saber se uma coisa ou outra está acontecendo. 
+*Veremos mais sobre esses operadores no próximo tópico.
 
 ##
 
