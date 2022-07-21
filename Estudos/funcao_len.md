@@ -55,3 +55,7 @@ print(f'O total de caracteres é {len(palavra1) + len(palavra2)}')
 O total de caracteres é 6
 ```
 
+##
+
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/builtin_functions.md)
+
