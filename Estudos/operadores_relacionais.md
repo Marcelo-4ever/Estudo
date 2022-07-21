@@ -116,4 +116,6 @@ O `and` vem do inglês e significa `e` e o `or` significa `ou`, então quando ut
 
 Ter esse conhecimento de saber se algo vai retornar True ou False é muito necessário e vai te ajudar bastante, então treine e estude bastante esse tópico para conseguir pegar essas comparações de uma maneira mais rápida! :)
 
+##
 
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/operadores_logicos.md)
