@@ -89,7 +89,9 @@ elif user not in 'maçã' and not in 'banana':
 ```
 O `if` confirma se o usuário escreveu ou banana ou maçã, se ele escreveu aparecerá a mensagem "Muito obrigado". Caso o usuário não tenha escrito nenhuma das duas ele vai cair no `elif` que confirma exatamente isso, se o usuário não escreveu nem banana e nem maçã, e mostra a mensagem "Ai não ajuda né"
 
+##
 
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/funcao_len.md)
 
 
 
