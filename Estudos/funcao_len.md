@@ -1,6 +1,6 @@
 ## **Função len()**
 
-A função **len() ** conta a quantidade de índices de algo. Ela funciona com strings e outros tipos de dados que veremos futuramente(listas, dicionários, tuplas..), mas não funciona com tipos numéricos como int, float e também não funciona com o tipo bool:
+A função **len()** conta a quantidade de índices de algo. Ela funciona com strings e outros tipos de dados que veremos futuramente(listas, dicionários, tuplas..), mas não funciona com tipos numéricos como int, float e também não funciona com o tipo bool:
 
 ```
 len(1213232)
