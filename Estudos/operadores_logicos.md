@@ -16,7 +16,7 @@ print(a == b or a > c)  # True, pois pelo menos uma comparação é verdade
 print(a != b or a > c)  #False, pois as duas comparações são falsas
 ```
 
-| comparação1   comparação2 | Resultado |
+| comparação1 \| comparação2 | Resultado |
 |---------------------------|:---------:|
 | verdadeiro and verdadeiro | True      |
 | verdadeiro and  falso     | False     |
@@ -28,6 +28,10 @@ print(a != b or a > c)  #False, pois as duas comparações são falsas
 ##
 
 O operador **not** não precisa de duas expressões, apenas uma. E ele é chamado de inversor, pois inverte o valor da expressão/comparação. 
+| Expressão      | Resultado: |
+|----------------|:----------:|
+| not verdadeiro | False      |
+| not falso      | True       |
 
 ```
 a = 2
@@ -40,7 +44,7 @@ if not b > a: # se b NÃO for maior que a
 	print('b não é maior que a')
 ```
 
-Ou seja, se temos uma comparação verdadeira como `b > a` o bloco de código dela será executado. Agora se a gente não quiser o que o código aconteça podemos colocar um *not* antes, pois ele irá inverter o True para False.     
+Ou seja, se temos uma comparação verdadeira como `b > a` o bloco de código dela será executado. Agora se a gente não quiser que o código não seja executado podemos colocar um *not* antes, pois ele irá inverter o True para False.     
 Já foi falado bem no início dos tópicos de python que valores vazios retornam False, então podemos criar códigos assim: 
 
 ```
@@ -66,13 +70,24 @@ Espero ter ficado o mais claro possível. :)
 
 ##
 
-Os operadores **in** e **not in**, que também retornam valores booleanos, respondem se algo *está* ou *não está* alguma outra coisa, por exemplo:  
+Os operadores **in** e **not in**, que também retornam valores booleanos, respondem se algo *está* ou *não está* em alguma outra coisa, por exemplo:  
 
 ```
 vogais = 'aeiou'
 print('a' in vogais') # True, tem a letra 'a' em 'aeiou'
 print('a' not in vogais) # False, letra 'a' está sim em 'aeiou'
 ```
+
+Podemos fazer confirmações se algo que o usuário escreveu tem o que nós precisamos:
+
+```
+user = str(input('Digite banana ou maçã: '))
+if user in 'maçã' or user in 'banana':
+	print('Muito obrigado')
+elif user not in 'maçã' and not in 'banana':
+	print('Ai não ajuda né')
+```
+O `if` confirma se o usuário escreveu ou banana ou maçã, se ele escreveu aparecerá a mensagem "Muito obrigado". Caso o usuário não tenha escrito nenhuma das duas ele vai cair no `elif` que confirma exatamente isso, se o usuário não escreveu nem banana e nem maçã, e mostra a mensagem "Ai não ajuda né"
 
 
 
