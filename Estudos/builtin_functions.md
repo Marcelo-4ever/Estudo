@@ -9,7 +9,7 @@ valor1 = input('Digite um valor: ')
 valor2 = input('Digite um valor: ') 
 ```
 
-Mas o usuário querendo testar o programa não responde nenhum valor inteiro e sim algumas letras e quebra o seu programa, como faz? O python não vai converter automaticamente para você em nenhuma situação o valor do usuário p/ verificar se é um número ou se não é - algo que pode acontecer em outras linguagens -, então nesse caso podemos usar uma função built-in chamada 'isdigit()' que é uma string method.     
+Mas o usuário querendo testar o programa não responde nenhum valor inteiro e sim algumas letras e quebra o seu programa, como faz? O python não vai converter automaticamente para verificar se é um número ou se não é - algo que pode acontecer em outras linguagens -, então nesse caso podemos usar uma função built-in chamada 'isdigit()' que é uma string method.     
 Ou seja, é uma função - que na verdade é chamado de método - , e é aplicada somente nas strings e vai verificar se uma string é um valor numérico ou não.
 
 *Você pode ver todas as string methods [nesse link](https://docs.python.org/3/library/stdtypes.html#string-methods) 
