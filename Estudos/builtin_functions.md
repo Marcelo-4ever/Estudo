@@ -37,3 +37,7 @@ Existem outros métodos 'isAlgumaCoisa()', como exemplo temos:
 - x.isspace() - verifica se a string tem somente espaços
 
 E você pode ver todas as outras nesse [link](https://docs.python.org/3/library/stdtypes.html#string-methods), que é o mesmo dos strings methods - porque é um método que acontece nas strings -. Para encontrar mais rápido é só dar um 'CTRL + F' ou 'F3' e escrever **'.is'** 
+
+## 
+
+[Continuar](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/placeholders.md)
