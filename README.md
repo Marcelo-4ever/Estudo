@@ -15,3 +15,4 @@ Se você encontrar qualquer informação incorreta é só me avisar, to aqui p/ 
 - [Operadores Lógicos](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/operadores_logicos.md)
 - [Função len()](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/funcao_len.md)
 - [Funções Built-in](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/builtin_functions.md)
+- [Placeholders](https://github.com/Marcelo-4ever/Estudo/blob/main/Estudos/placeholders.md)
