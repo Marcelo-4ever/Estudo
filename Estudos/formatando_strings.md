@@ -4,7 +4,7 @@
 
 Talvez você já conheça as f-strings, mas caso não conheça vamos ver elas agora. Primeiro temos que criar algumas variáveis:
 
-```py
+```
 quantidade_cachorro = 2
 cachorro1 = 'Bob'
 cachorro2 = 'Marley'
@@ -29,14 +29,14 @@ Um pouco confuso, não? Cheio de aspas e vírgulas, felizmente existem as f-stri
 
 ### Com f-strings
 
-```py
+```
 print(f'Eu tenho {quantidade_cachorro} cachorros e eles se chamam {cachorro1} e {cachorro2}')
 ``` 
 
 Para usar a f-strings você sempre coloca um *`f`* antes da primeira aspa, e quando você for colocar uma variável dentro da string como `quantidade_cachorro` é só abrir uma chave, coloca a variável dentro e fechar a chave. Bem mais fácil que usar várias vírgulas, certo? E você também não precisa se preocupar com o tipo de dado da variável, se é string, inteiro, float, bool etc.        
 No outro exemplo se você quisesse concatenar as variáveis, ou seja, juntar as variáveis com as strings, dessa forma: 
 
-```py
+```
 print('Eu tenho ' + quantidade_cachorro + ' cachorros e eles se chamam ' + cachorro1 + ' e ' + cachorro2)
 ```
 
@@ -46,7 +46,7 @@ Você receberia um TypeError pois a quantidade de cachorros é um valor *inteiro
 
 Se eu quero fazer uma conta com duas variáveis e guardar o valor em uma outra variável e mostrar na tela eu posso fazer assim: 
 
-```py
+```
 num1 = 10
 num2 = 3
 divisao = 10 / 3 
@@ -71,7 +71,7 @@ O que aconteceu aqui? Vou te explicar passo a passo.
 Quando colocamos os dois pontos `:` dentro das chaves estamos falando para o python que vamos ter uma formatação, logo depois temos `'.2'` que significa que queremos apenas duas casas decimais, e por último o *`f`* que fala basicamente: 'duas casas decimais de pontos flutuantes'. Isso quer dizer que queremos 2 dígitos após o ponto flutuante, por isso o output foi 3.33.       
 E se a conta tiver a resposta sendo um número inteiro? O python iria transformar em um valor *float* e adicionaria duas casas decimais: 
 
-```py
+```
 divisao = 10 / 2 
 
 #input
@@ -112,7 +112,7 @@ O tamanho da casa é 2350 metros ou 23.5 centímetros
 
 Para facilitar essa ordem, ao invés de ficar olhando a quantidade de chaves - imagina tem 5, 10 variáveis, você ficaria perdidinho vendo se tá colocando na ordem certa - você pode usar os índices. Vamos ver:
 
-```py
+```
 graus_celsius = 30
 graus_fahrenheit = 86
 print('{0} graus celsius convertidos para fahrenheit é {1}'.format(graus_celsius, graus_fahrenheit))
